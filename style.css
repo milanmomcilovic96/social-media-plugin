@@ -1,5 +1,5 @@
 /* social-share-styles.css */
-
+/* test */
 /* Basic style for the social media buttons */
 .social-share-wrapper {
     margin-top: 20px;
@@ -24,6 +24,22 @@
     color: #333;
 }
 
+/* Small buttons */
+.social-share-wrapper a.small {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.social-share-wrapper a.medium {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+/* Large buttons */
+.social-share-wrapper a.large {
+    font-size: 16px;
+    padding: 10px 20px;
+}
 
 /* Style individual social media buttons (optional) */
 .social-share-wrapper .facebook a {
