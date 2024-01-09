@@ -155,39 +155,6 @@ function generate_social_share_links($url) {
 
     return $html;
 }
-// function add_social_share_icons($content) {
-//     global $post;
-
-//     $url = esc_url(get_permalink($post->ID));
-//     $social_media_links = generate_social_share_links($url);
-
-//     $display_on_posts = get_option('social-share-display-post');
-//     $display_on_pages = get_option('social-share-display-page');
-//     $displayed_content = '';
-
-//     // Check if it's a singular post type and display is enabled for that post type
-//     if (is_singular('post') && $display_on_posts) {
-//         $displayed_content .= $social_media_links;
-//     } elseif (is_singular('page') && $display_on_pages) {
-//         $displayed_content .= $social_media_links;
-//     } elseif ($custom_post_types = get_post_types(['_builtin' => false])) {
-//         // Loop through custom post types to check and display if enabled
-//         foreach ($custom_post_types as $post_type) {
-//             $display_custom = get_option("social-share-display-{$post_type}");
-//             if (is_singular($post_type) && $display_custom) {
-//                 $displayed_content .= $social_media_links;
-//                 break; // Display only once for a custom post type
-//             }
-//         }
-//     }
-
-//     // Append the displayed content to the original content
-//     if (!empty($displayed_content)) {
-//         $content .= $displayed_content;
-//     }
-
-//     return $content;
-// }
 
 function add_social_share_icons($content) {
     global $post;
