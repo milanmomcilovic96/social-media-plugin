@@ -7,4 +7,11 @@
  **/
 
 
+ 
+function social_media_share() {
+    add_menu_page('Social Media Share', 'Social Media Share', 'manage_options', 'social-media-share', 'social_share_page', '', 200);
+}
+add_action('admin_menu', 'social_media_share');
+
+
 ?>
