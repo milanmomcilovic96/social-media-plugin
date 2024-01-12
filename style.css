@@ -1,13 +1,5 @@
-/* social-share-styles.css */
-/* test */
-/* Basic style for the social media buttons */
 .social-share-wrapper {
     margin-top: 20px;
-}
-
-.social-share-wrapper .share-on {
-    font-weight: bold;
-    margin-right: 10px;
 }
 
 .social-share-wrapper div {
@@ -24,7 +16,6 @@
     color: #333;
 }
 
-/* Small buttons */
 .social-share-wrapper a.small {
     font-size: 12px;
     padding: 5px 10px;
@@ -35,13 +26,11 @@
     padding: 8px 16px;
 }
 
-/* Large buttons */
 .social-share-wrapper a.large {
     font-size: 16px;
     padding: 10px 20px;
 }
 
-/* Style individual social media buttons (optional) */
 .social-share-wrapper .facebook a {
     background-color: #3b5998;
     color: #fff;
@@ -52,7 +41,6 @@
     color: #fff;
 }
 
-/* Add similar styles for other social media buttons */
 .social-share-wrapper .google a {
     background-color: #dd4437;
     color: #fff;
@@ -68,4 +56,8 @@
 .social-share-wrapper .whatsapp a {
     background-color: #25d366;
     color: #fff;
+}
+
+.relative-image {
+    position: relative;
 }
