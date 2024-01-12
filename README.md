@@ -23,7 +23,7 @@ The Social Media Share plugin is a customizable WordPress plugin that allows use
 
 ## Installation
 
-1. Upload the `social-media-share` folder to the `/wp-content/plugins/` directory.
+1. Upload the `social-media-share` folder to the `/wp-content/plugins/` directory or upload the social-media-share as zipped file inside Wordpress Plugins tab.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Navigate to the 'Social Media Share' settings page in the WordPress admin to configure the plugin.
 
@@ -58,20 +58,16 @@ Yes, you can use the shortcode `[social_share_icons]` to manually insert social 
 For support and inquiries, please contact the plugin author:
 
 - **Author:** Milan Momcilovic
-- **Email:** [Your Email Address]
+- **Email:** milanmomcilovic96@gmail.com
 
 ## Changelog
 
-### Version 1.0
+### Demo Version 1.0
 
 - Initial release of the Social Media Share plugin.
 
 ## Credits
 
 - This plugin utilizes the WordPress Color Picker script for easy color customization.
-
-## License
-
-This plugin is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 Enjoy sharing your content with the world using the Social Media Share plugin!
